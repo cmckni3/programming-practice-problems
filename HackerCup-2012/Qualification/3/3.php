@@ -1,4 +1,10 @@
 <?php
+/*
+Chris McKnight
+1/21/2012
+HackerCup 2012: Alphabet Soup
+Time to Code: ~30 minutes
+*/
 $count = 0;
 $cases = 0;
 
