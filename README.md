@@ -3,7 +3,6 @@
 ## ICPC ##
 
     None added yet
-    Coming Soon
 
 ## HackerCup ##
 ### HackerCup 2012 ###
