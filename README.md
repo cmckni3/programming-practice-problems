@@ -1,12 +1,15 @@
 # Programming Practice Problems #
 
-## ACM ##
+## ACM Warmup/Practice Problems ##
 
-    Will update soon
+1. Hello World http://acm.tju.edu.cn/acm/showp1001.html
+2. Counting Sheep http://acm.tju.edu.cn/toj/showp2001.html
+3. Head or Tail http://acm.tju.edu.cn/toj/showp2123.html
 
-## ICPC ##
+## Live Archive ##
 
-    Will update soon
+1. Quick Change http://livearchive.onlinejudge.org/external/33/3389.html
+2. Triangular Sums http://livearchive.onlinejudge.org/external/33/3392.html
 
 ## HackerCup ##
 ### HackerCup 2012 ###
