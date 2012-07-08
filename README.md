@@ -10,6 +10,7 @@
 
 1. Quick Change http://livearchive.onlinejudge.org/external/33/3389.html
 2. Triangular Sums http://livearchive.onlinejudge.org/external/33/3392.html
+3. Mispelling http://livearchive.onlinejudge.org/external/39/3910.html
 
 ## HackerCup ##
 ### HackerCup 2012 ###
