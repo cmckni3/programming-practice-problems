@@ -23,12 +23,42 @@
 2. 13 (C++)
 3. 16 (C++)
 4. 20 (C++)
-5. 35 (C++)
-6. 36 (C++)
-7. 42 (C++)
-8. 48 (C++)
-9. 55 (C++)
-10. 131 (C++)
+5. 21 (Ruby)
+6. 35 (C++)
+7. 36 (C++)
+8. 42 (C++)
+9. 48 (C++)
+10. 55 (C++)
+11. 131 (C++)
+
+## CoderByte ##
+
+- First Reverse
+- First Factorial
+- Simple Adding
+- Check Nums
+- Binary Converter
+
+## Rosalind ##
+
+### Bioinformatics Amory ###
+
+- None
+
+### Bioinformatics Stronghold ###
+
+- DNA
+- RNA
+- REVC
+- GC
+- HAMM
+- PROT
+
+### Python Village ###
+
+- INI1
+- INI2
+- INI3
 
 ## UVA ##
 1. 10018 Reverse and Add http://uva.onlinejudge.org/external/100/10018.html (C++)
