@@ -10,19 +10,19 @@ const int START = 2520;
 
 int main()
 {
-	for (int i = 2520; ; i+=2520)//i++)
-	{
-		int count = 0;
-		for (int j = 0; j < 10; j++)
-		{
-			if (i % NUMS[j] == 0)
-				count++;
-		}
-		if (count == 10)
-		{
-			cout << i << endl;
-			break;
-		}
-	}
-	return 0;
+  for (int i = 2520; ; i+=2520)
+  {
+    int count = 0;
+    for (int j = 0; j < 10; j++)
+    {
+      if (i % NUMS[j] == 0)
+        count++;
+    }
+    if (count == 10)
+    {
+      cout << i << endl;
+      break;
+    }
+  }
+  return 0;
 }

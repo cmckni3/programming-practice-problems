@@ -1,18 +1,18 @@
 /*
- *  Author:
- *    Date:
- * Purpose:
- * Problem:
- */
+*  Author:
+*    Date:
+* Purpose:
+* Problem:
+*/
 
 /*
- * This template reads data a specified number of times.
- */
+* This template reads data a specified number of times.
+*/
 
 #include <stdio.h>
 #include <string.h>
-#include <sys/types.h> 
-#include <sys/stat.h> 
+#include <sys/types.h>
+#include <sys/stat.h>
 #include <fcntl.h>
 #include <stdlib.h>
 #include <math.h>
@@ -27,7 +27,7 @@ int numberOfTimes;
 
 void init()
 { /* FUNCTION init */
-	scanf("%d ", &numberOfTimes);
+  scanf("%d ", &numberOfTimes);
 } /* FUNCTION init */
 
 void dump()
@@ -44,14 +44,14 @@ void process()
 
 int main ()
 { /* main */
-	int i;
+  int i;
 
-	init();
-	for (i=0; i<numberOfTimes; i++)
-	{ /* while */
-		getInput();
-		process();
-	} /* while */
+  init();
+  for (i=0; i<numberOfTimes; i++)
+  { /* while */
+    getInput();
+    process();
+  } /* while */
 
-	return 0;
+  return 0;
 } /* main */

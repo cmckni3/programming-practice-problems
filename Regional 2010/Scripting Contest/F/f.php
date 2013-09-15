@@ -10,25 +10,25 @@ while ($cases != 0) {
   $count = 0;
   $yes = array();
   while ($cases > $count) {
-  $myarray = fgets(STDIN);
-  $explodedarray = explode(" ", $myarray);
+    $myarray = fgets(STDIN);
+    $explodedarray = explode(" ", $myarray);
 
-  for ($i = 1; $i < 50; $i++)
-  {
-    if (in_array($i, $explodedarray))
-	{
-		$yes[$i] = 1;
-		if (!in_array($i, $yes2))
-	  	{
-	  		$yescount++;
-	  	}
-	  	$yes2[$i] = $i;
-	}
-    else
-      $yes[$i] = 0;
-  }
+    for ($i = 1; $i < 50; $i++)
+    {
+      if (in_array($i, $explodedarray))
+      {
+        $yes[$i] = 1;
+        if (!in_array($i, $yes2))
+        {
+          $yescount++;
+        }
+        $yes2[$i] = $i;
+      }
+      else
+        $yes[$i] = 0;
+    }
 
-  $count++;
+    $count++;
   }
 
   $yest = true;
@@ -38,14 +38,14 @@ while ($cases != 0) {
       $yest = false;
   }
 
-if ($yescount == 49)
-  print "Yes\n";
-else
+  if ($yescount == 49)
+    print "Yes\n";
+  else
   {
     print "No\n";
   }
 
-$cases = fgets(STDIN);
+  $cases = fgets(STDIN);
 }
 
 ?>

@@ -28,59 +28,59 @@ int pr[SIZE] = {0};
 
 bool find(int n)
 {
-	bool found = false;
-/*
-	vector<int>::iterator it = primes.begin();
-	vector<int>::iterator end = primes.end();
+  bool found = false;
+  /*
+  vector<int>::iterator it = primes.begin();
+  vector<int>::iterator end = primes.end();
 
-	while (it != end)
-	{
-		if (*it == n) return true;
-		++it;
-	}
-*/
-	if (numbers[n]) return true;
-		
-	return found;
+  while (it != end)
+  {
+  if (*it == n) return true;
+  ++it;
+  }
+  */
+  if (numbers[n]) return true;
+
+  return found;
 }
 
 // Finds circular permutations
 bool permute(string n, int onum)
 {
-	bool allp = true;
-	
-	int d = n.length();
-	int count = 0;
+  bool allp = true;
 
-	DEBUG3 cout << "d = " << d << endl;
-	
-	if (!find(onum)) allp = false;
+  int d = n.length();
+  int count = 0;
 
-	DEBUG3 cout << "onum = " << onum << endl;
+  DEBUG3 cout << "d = " << d << endl;
 
-	while (count < (d-1))
-	{
-		for (int i = 1; i < d; i++)
-		{
-			char temp = n[(i-1)%d];
-			n[(i-1)%d] = n[i%d];
-			n[i%d] = temp;
-		}
+  if (!find(onum)) allp = false;
 
-		int num = 0;
-		for (int i = 0; i < d; i++)
-		{
-			DEBUG3 cout << n[i] << endl;
-			num = num*10 + (n[i] - '0');
-		}
+  DEBUG3 cout << "onum = " << onum << endl;
 
-		DEBUG3 cout << "num = " << num << endl;
+  while (count < (d-1))
+  {
+    for (int i = 1; i < d; i++)
+    {
+      char temp = n[(i-1)%d];
+      n[(i-1)%d] = n[i%d];
+      n[i%d] = temp;
+    }
 
-		if (!find(num)) allp = false;
-		count++;
-	}
-	
-	return allp;
+    int num = 0;
+    for (int i = 0; i < d; i++)
+    {
+      DEBUG3 cout << n[i] << endl;
+      num = num*10 + (n[i] - '0');
+    }
+
+    DEBUG3 cout << "num = " << num << endl;
+
+    if (!find(num)) allp = false;
+    count++;
+  }
+
+  return allp;
 }
 
 /*
@@ -88,77 +88,77 @@ bool permute(string n, int onum)
 // Note: the arrays vals and orig should be sorted to generate all permutations
 bool permute(string n)
 {
-	bool allp = true;
-	int d = n.length();
+  bool allp = true;
+  int d = n.length();
 
-	DEBUG2 cout << d << endl;
+  DEBUG2 cout << d << endl;
 
-	int nfac = 1;
-	for (int i = d; i > 0; i--)
-		nfac *= i;
+  int nfac = 1;
+  for (int i = d; i > 0; i--)
+    nfac *= i;
 
-	DEBUG cout << "number of permutations = " << nfac << endl;
-	
-	int vals[d], orig[d];
+  DEBUG cout << "number of permutations = " << nfac << endl;
 
-	for (int i = 0; i < d; i++)
-		vals[i] = n[i] - '0';
+  int vals[d], orig[d];
 
-	orig = vals;
+  for (int i = 0; i < d; i++)
+    vals[i] = n[i] - '0';
 
-	do
-	{
-		int num = 0;
-		for (int i = 0; i < d; i++)
-		{
-			num = num*10 + vals[i];
-		}
+  orig = vals;
 
-		if (!find(num))	allp = false;
-		DEBUG3 cout << num << endl;
-	} while (next_permutation(vals, vals+d));
-	return allp;
+  do
+  {
+    int num = 0;
+    for (int i = 0; i < d; i++)
+    {
+      num = num*10 + vals[i];
+    }
+
+    if (!find(num))	allp = false;
+    DEBUG3 cout << num << endl;
+  } while (next_permutation(vals, vals+d));
+  return allp;
 }*/
 
 int main()
 {
-	for(int x = 0; x < SIZE; x++)
-	{
-		numbers[x] = x;
-	}
-	numbers[1] = 0;
-	for(long int x = 2; x < SIZE; x++)
-	{
-		for(long int y = x; x*y < SIZE && x*y >= 0; y++)
-		{
-			numbers[(long long)x*y] = 0;
-		}
-	}
-	
-	for(int x = 0; x < SIZE; x++)
-	{
-		if(numbers[x] != 0)
-		{
-			primes.push_back(numbers[x]);
-		}
-	}
-	
-	vector<int>::iterator it = primes.begin();
-	vector<int>::iterator end = primes.end();
-	//cout << "int primes [" << primes.size() << "] = { ";
-	int circ = 0;
-	while(it != end)
-	{
-		DEBUG3 cout << "permuting " << *it << endl;
-		//cout << *it << ", ";
-		stringstream s;
-		s << *it;
+  for(int x = 0; x < SIZE; x++)
+  {
+    numbers[x] = x;
+  }
+  numbers[1] = 0;
+  for(long int x = 2; x < SIZE; x++)
+  {
+    for(long int y = x; x*y < SIZE && x*y >= 0; y++)
+    {
+      numbers[(long long)x*y] = 0;
+    }
+  }
 
-		if (permute(s.str(), *it)) circ++;
-		++it;
-	}
-	
-	cout << "Total circular primes under one million: " << circ << endl;
-	//cout << "};" << endl;
-	return 0;
+  for(int x = 0; x < SIZE; x++)
+  {
+    if(numbers[x] != 0)
+    {
+      primes.push_back(numbers[x]);
+    }
+  }
+
+  vector<int>::iterator it = primes.begin();
+  vector<int>::iterator end = primes.end();
+  //cout << "int primes [" << primes.size() << "] = { ";
+  int circ = 0;
+  while(it != end)
+  {
+    DEBUG3 cout << "permuting " << *it << endl;
+    //cout << *it << ", ";
+    stringstream s;
+    s << *it;
+
+    if (permute(s.str(), *it)) circ++;
+    ++it;
+  }
+
+  cout << "Total circular primes under one million: " << circ << endl;
+  //cout << "};" << endl;
+  return 0;
 }

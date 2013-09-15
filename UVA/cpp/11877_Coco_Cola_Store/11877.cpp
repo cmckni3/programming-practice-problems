@@ -11,12 +11,12 @@ using namespace std;
 
 int main(int argc, char* argv[])
 {
-	int n;
-	cin >> n;
-	while (n != 0)
-	{
-		cout << (n / 2) << endl;
-		cin >> n;
-	}
-	return 0;
+  int n;
+  cin >> n;
+  while (n != 0)
+  {
+    cout << (n / 2) << endl;
+    cin >> n;
+  }
+  return 0;
 }

@@ -11,10 +11,10 @@ using namespace std;
 
 int main(int argc, char** argv)
 {
-	int n;
-	while (cin >> n)
-	{
-		cout << char(n);
-	}
-	return 0;
+  int n;
+  while (cin >> n)
+  {
+    cout << char(n);
+  }
+  return 0;
 }

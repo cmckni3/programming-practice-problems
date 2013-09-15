@@ -1,18 +1,18 @@
 /*
- *  Author:
- *    Date:
- * Purpose:
- * Problem:
- */
+*  Author:
+*    Date:
+* Purpose:
+* Problem:
+*/
 
 /*
- * This template reads data until a terminating value is reached.
- */
+* This template reads data until a terminating value is reached.
+*/
 
 #include <iostream>
 #include <string.h>
-#include <sys/types.h> 
-#include <sys/stat.h> 
+#include <sys/types.h>
+#include <sys/stat.h>
 #include <fcntl.h>
 #include <stdint.h>
 #include <math.h>
@@ -35,8 +35,8 @@ void dump()
 
 int getInput()
 { /* FUNCTION getInput */
-    int dataReadFlag;
-    return (dataReadFlag);
+  int dataReadFlag;
+  return (dataReadFlag);
 } /* FUNCTION getInput */
 
 void process()
@@ -45,15 +45,15 @@ void process()
 
 int main ()
 { /* main */
-    int moreToDo;
-	
-    init();
+  int moreToDo;
+
+  init();
+  moreToDo = getInput();
+  while (moreToDo)
+  { /* while */
+    process();
     moreToDo = getInput();
-    while (moreToDo)
-	{ /* while */
-        process();
-        moreToDo = getInput();
-	} /* while */
-	
-    return 0;
+  } /* while */
+
+  return 0;
 } /* main */

@@ -1,3 +1,9 @@
+/*
+Chris McKnight
+UVA 100: 3n+1
+9/12/2013
+*/
+
 #include <iostream>
 
 #define DEBUG if (false)
