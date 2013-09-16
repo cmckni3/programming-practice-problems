@@ -61,12 +61,16 @@
 - INI3
 
 ## UVA ##
-1. 10018 Reverse and Add http://uva.onlinejudge.org/external/100/10018.html (C++)
-2. 10038 Jolly Jumpers http://uva.onlinejudge.org/external/100/10038.html (C++)
-3. 11805 Bafana Bafana http://uva.onlinejudge.org/external/118/11805.html (C++)
-4. 11824 A Minimum Land Price http://uva.onlinejudge.org/external/118/11824.html (C++)
-5. 11830 Contract Revision http://uva.onlinejudge.org/external/118/11830.html (C++)
-6. 11839 Optical Reader http://uva.onlinejudge.org/external/118/11839.html (C++)
-7. 11847 Cut the Silver Bar http://uva.onlinejudge.org/external/118/11847.html (C++)
-8. 11850 Alask http://uva.onlinejudge.org/external/118/11850.html (C++)
-9. 11854 Egypt http://uva.onlinejudge.org/external/118/11854.html (C++)
+1.  100   3n+1 http://uva.onlinejudge.org/external/1/100.html (C++)
+2.  10018 Reverse and Add http://uva.onlinejudge.org/external/100/10018.html (C++)
+3.  10038 Jolly Jumpers http://uva.onlinejudge.org/external/100/10038.html (C++)
+4.  11805 Bafana Bafana http://uva.onlinejudge.org/external/118/11805.html (C++)
+5.  11824 A Minimum Land Price http://uva.onlinejudge.org/external/118/11824.html (C++)
+6.  11830 Contract Revision http://uva.onlinejudge.org/external/118/11830.html (C++)
+7.  11839 Optical Reader http://uva.onlinejudge.org/external/118/11839.html (C++)
+8.  11847 Cut the Silver Bar http://uva.onlinejudge.org/external/118/11847.html (C++)
+9.  11850 Alaska http://uva.onlinejudge.org/external/118/11850.html (C++)
+10. 11854 Egypt http://uva.onlinejudge.org/external/118/11854.html (C++)
+11. 11877 The Coco-Cola Store http://uva.onlinejudge.org/external/118/11877.html (C++)
+12. 11878 Homework Checker http://uva.onlinejudge.org/external/118/11878.html (C++)
+
