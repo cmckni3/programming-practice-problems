@@ -4,9 +4,13 @@
 #include <iostream>
 #include <vector>
 
-using namespace std;
+#define TRUE  (1 == 1)
+#define FALSE (1 != 1)
+#define SIZE 2000000
 
-const long int SIZE = 2000000;
+#define DEBUG if (FALSE)
+
+using namespace std;
 
 int numbers[SIZE];
 vector<int> primes;

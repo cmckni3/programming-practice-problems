@@ -1,7 +1,6 @@
-/*
-Requirement: Find the number of triangle words in 42.in using
-t = 1/2(n)(n+1)
-*/
+// Requirement: Find the number of triangle words in 42.in using
+// t = 1/2(n)(n+1)
+
 
 #include <iostream>
 #include <stdlib.h>

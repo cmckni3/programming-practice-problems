@@ -7,9 +7,13 @@
 
 #include <iostream>
 
-using namespace std;
+#define TRUE  (1 == 1)
+#define FALSE (1 != 1)
+#define MAX 1000
 
-const int MAX = 1000;
+#define DEBUG if (FALSE)
+
+using namespace std;
 
 int main()
 {

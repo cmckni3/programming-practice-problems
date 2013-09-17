@@ -6,6 +6,11 @@
 #include <cmath>
 #include <limits>
 
+#define TRUE  (1 == 1)
+#define FALSE (1 != 1)
+
+#define DEBUG if (FALSE)
+
 using namespace std;
 
 const long int SIZE = 600851475143;
@@ -27,7 +32,6 @@ int largestPrimeFactor(long number) {
 int main()
 {
   int large = largestPrimeFactor(SIZE);
-  // cout << largestPrimeFactor(13195) << endl;
-  cout << large << endl;
+  cout << "Largest prime factor of 600851475143 = " << large << endl;
   return 0;
 }

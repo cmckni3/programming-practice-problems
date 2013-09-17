@@ -3,6 +3,11 @@
 
 #include <iostream>
 
+#define TRUE  (1 == 1)
+#define FALSE (1 != 1)
+
+#define DEBUG if (FALSE)
+
 using namespace std;
 
 const int NUMS[10] = { 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 };

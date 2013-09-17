@@ -3,9 +3,13 @@
 
 #include <iostream>
 
-using namespace std;
+#define TRUE  (1 == 1)
+#define FALSE (1 != 1)
+#define MAX 999
 
-const int MAX = 999;
+#define DEBUG if (FALSE)
+
+using namespace std;
 
 int reverse(int n)
 {
@@ -40,7 +44,6 @@ int main()
       }
     }
   }
-  cout << "max is " << maxi << " * " << maxj;
-  cout << " = " << max << endl;
+  cout << "max is " << maxi << " * " << maxj << " = " << max << endl;
   return 0;
 }

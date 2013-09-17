@@ -6,12 +6,13 @@
 
 #include <iostream>
 
+#define TRUE  (1 == 1)
+#define FALSE (1 != 1)
+#define MAX 1E6
+
+#define DEBUG if (FALSE)
+
 using namespace std;
-
-const int MAX = 1E6;
-
-bool reverse(long int);
-bool binrev(long int);
 
 bool reverse(long int n)
 {
@@ -39,9 +40,6 @@ bool binrev(long int n)
 
 int main()
 {
-  //int num = 585;
-  //long int num = 719848917;
-  //cout << binrev(num) << endl;
   long int sum = 0;
   for (int i = 0; i < MAX; i++)
   {

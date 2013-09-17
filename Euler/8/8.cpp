@@ -2,6 +2,11 @@
 #include <string.h>
 #include <fstream>
 
+#define TRUE  (1 == 1)
+#define FALSE (1 != 1)
+
+#define DEBUG if (FALSE)
+
 using namespace std;
 
 int main()

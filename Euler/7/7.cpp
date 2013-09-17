@@ -1,12 +1,15 @@
-/*
-This program finds a certain prime number or prime numbers in a range.
-*/
+// This program finds a certain prime number or prime numbers in a range.
 
 
 #include <iostream>
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
+
+#define TRUE  (1 == 1)
+#define FALSE (1 != 1)
+
+#define DEBUG if (FALSE)
 
 using namespace std;
 
