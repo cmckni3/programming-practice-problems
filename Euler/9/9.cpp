@@ -25,10 +25,10 @@ int main()
     for (j = 2; j < k; j++)
     {
       b = j * j;
-      for (k = 3; k < 1000; k++)
+      for (k = 3; k < MAX; k++)
       {
         c = k * k;
-        if ((i + j + k) == 1000)
+        if ((i + j + k) == MAX)
         {
           //cout << "sum = 1000" << endl;
           c = k * k;

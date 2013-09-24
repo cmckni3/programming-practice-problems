@@ -6,30 +6,32 @@
 #define FALSE (1 != 1)
 
 #define DEBUG if (FALSE)
+#define MAX 1000
+#define SIZE 1004
 
 using namespace std;
 
 int main()
 {
-  ifstream file("8.in");
   long int max = 0;
-  while (!file.eof())
+  int count = 0;
+  int digits[SIZE] = { 0 };
+  while (count < MAX)
   {
-    long int temp;
     char c;
-    c = file.get();
-    temp = c - '0';
-    for (int i = 0; i < 4; i++)
+    c = cin.get();
+    if (c != '\n')
     {
-      c = file.get();
-      temp *= c - '0';
+      digits[count] = c - '0';
+      count++;
     }
+  }
+  for (int i = 0; i < MAX; i++)
+  {
+    long int temp = digits[i] * digits[i+1] * digits[i+2] * digits[i+3] * digits[i+4];
     if (temp > max)
       max = temp;
-    for (int i = 0; i < 4; i++)
-      file.unget();
   }
   cout << max << endl;
-  file.close();
   return 0;
 }

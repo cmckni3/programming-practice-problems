@@ -61,8 +61,8 @@ int main(int argc, char *argv[])
       }
     }
   }
-  cout<<"Total number of words: "<<count<<endl;
-  cout<<"Total number of triangle words: "<<tricount<<endl;
+  cout << "Total number of words: " << count << endl;
+  cout << "Total number of triangle words: " << tricount << endl;
   input.close();
   return 0;
 }
