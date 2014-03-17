@@ -2,8 +2,8 @@
 // Find a*b*c where a^2 + b^2 = c^2 and a + b + c = 1000
 
 // Note: To make this more efficient pythagorean triples can be generated
-// by using the formulas a = 2*m, b = m^2 - 1, c = m^2 + 1
-// where m is some integer
+// by using the formulas a = 2*mn, b = m^2 - n^2, c = m^2 + n^2
+// where m and n are coprime
 
 #include <iostream>
 
@@ -17,7 +17,7 @@ using namespace std;
 
 int main()
 {
-  int i=1, j=2, k=3;
+  int i = 1, j = 2, k = 3;
   int a, b, c;
   for (i = 1; i < j; i++)
   {
@@ -30,13 +30,10 @@ int main()
         c = k * k;
         if ((i + j + k) == MAX)
         {
-          //cout << "sum = 1000" << endl;
-          c = k * k;
           if ((a + b) == c)
           {
             cout << i << "^2 + ";
-            cout << j << "^2 = " << k;
-            cout << endl;
+            cout << j << "^2 = " << k << "^2" << endl;
             cout << "abc = " << (i*j*k) << endl;
             return 0;
           }

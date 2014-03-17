@@ -1,5 +1,8 @@
-// This program finds a certain prime number or prime numbers in a range.
+/*
+By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that the 6th prime is 13.
 
+What is the 10 001st prime number?
+*/
 
 #include <iostream>
 #include <stdlib.h>
@@ -104,5 +107,5 @@ int main(int argc, char *argv[])
     cout<<number<<endl;
     break;
   }
-  return 1;
+  return 0;
 }
