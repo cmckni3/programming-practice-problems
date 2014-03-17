@@ -1,6 +1,6 @@
 var FirstReverse = require('./first_reverse');
 
-describe('firstFactorial', function(){
+describe('firstReverse', function(){
   var first_reverse = FirstReverse.firstReverse;
 
   it("should reverse hello", function(){

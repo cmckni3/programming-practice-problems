@@ -2,6 +2,11 @@ var BinaryConverter = require('./binary_converter');
 
 describe('toBinary', function(){
   var toBinary = BinaryConverter.toBinary;
+
+  it("should equal 0", function(){
+    expect(toBinary('00')).toEqual(0);
+  });
+
   it("should equal 0", function(){
     expect(toBinary('0')).toEqual(0);
   });

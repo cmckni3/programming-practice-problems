@@ -1,6 +1,6 @@
 var SimpleAdding = require('./simple_adding');
 
-describe('firstFactorial', function(){
+describe('simpleAdding', function(){
   var simple_adding = SimpleAdding.simpleAdding;
 
   it("should equal 0", function(){
