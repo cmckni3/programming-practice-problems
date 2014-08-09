@@ -1,7 +1,7 @@
 /*
 Chris McKnight
-ACM: Triangular Sums
-11/12/2011
+ACM 3392: Triangular Sums
+2011-11-12
 */
 
 #include <iostream>

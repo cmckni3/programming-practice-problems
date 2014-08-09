@@ -1,7 +1,7 @@
 /*
 Chris McKnight
 UVA 11824: A Minimum Land Price
-11/9/11
+2011-11-09
 Time: ~20 minutes
 */
 

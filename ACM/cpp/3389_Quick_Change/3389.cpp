@@ -1,9 +1,8 @@
 /*
-* Problem: Quick Change
-* File:   main.cpp
+* Problem: 3389 Quick Change
 * Author: Chris McKnight
 *
-* Created on October 27, 2010, 5:46 PM
+* 2010-10-27
 */
 
 #include <iostream>

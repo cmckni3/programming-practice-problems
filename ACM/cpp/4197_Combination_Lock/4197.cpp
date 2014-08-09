@@ -1,3 +1,9 @@
+/*
+Chris McKnight
+ACM 4197: Combination Lock
+2014-06-19
+*/
+
 #include <iostream>
 
 using namespace std;

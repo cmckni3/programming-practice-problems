@@ -1,7 +1,7 @@
 /*
 Chris McKnight
 UVA 11878 Homework Checker
-9/23/11
+2011-09-23
 Homework 3
 */
 

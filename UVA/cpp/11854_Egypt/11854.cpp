@@ -1,7 +1,7 @@
 /*
 Chris McKnight
 UVA 11854: Egypt
-11/9/11
+2011-11-09
 */
 
 #include <iostream>

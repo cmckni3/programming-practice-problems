@@ -1,7 +1,7 @@
 /*
 Chris McKnight
 UVA 11687: Digits
-2014-08-08
+2014-08-09
 */
 
 #include <iostream>

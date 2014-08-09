@@ -1,7 +1,7 @@
 /*
 Chris McKnight
 UVA 11850: Alaska
-11/9/11
+2011-11-09
 Time: 16 minutes
 */
 

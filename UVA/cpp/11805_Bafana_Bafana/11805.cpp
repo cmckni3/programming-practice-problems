@@ -1,7 +1,7 @@
 /*
 Chris McKnight
 UVA 11805: Bafana Bafana
-8/31/2011
+2011-08-31
 Homework 1
 */
 

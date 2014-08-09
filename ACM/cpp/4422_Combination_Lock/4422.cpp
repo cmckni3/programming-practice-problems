@@ -1,3 +1,9 @@
+/*
+Chris McKnight
+ACM 4422: Combination Lock
+2014-07-10
+*/
+
 #include <iostream>
 #include <iomanip>
 

@@ -1,7 +1,7 @@
 /*
 Chris McKnight
 UVA 10038: Jolly Jumpers
-7/31/2010
+2010-07-31
 Determine whether input is a jolly jumper meaning it has
 all differences from 1 to n-1
 If it has all the differences print "Jolly"

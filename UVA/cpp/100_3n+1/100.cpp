@@ -1,7 +1,7 @@
 /*
 Chris McKnight
 UVA 100: 3n+1
-9/12/2013
+2013-09-12
 */
 
 #include <iostream>

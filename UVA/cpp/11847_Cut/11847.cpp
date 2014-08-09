@@ -1,7 +1,7 @@
 /*
 Chris McKnight
 UVA 11847: Cut the Silver Bar
-11/9/11
+2011-11-09
 */
 
 #include <iostream>

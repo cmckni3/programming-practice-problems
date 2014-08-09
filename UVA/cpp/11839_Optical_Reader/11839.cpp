@@ -1,7 +1,7 @@
 /*
 Chris McKnight
 UVA 11839 Optical Reader
-9/7/11
+2011-09-07
 Homework 2
 */
 

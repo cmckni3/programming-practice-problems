@@ -1,7 +1,7 @@
 /*
 Chris McKnight
-ACM: Mispelling
-11/12/2011
+ACM 3910: Mispelling
+2011-11-12
 */
 
 #include <iostream>

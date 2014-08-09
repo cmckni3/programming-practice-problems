@@ -1,7 +1,7 @@
 /*
 Chris McKnight
 UVA 10018: Reverse and Add
-9/22/2010
+2010-09-22
 Add the reverse of the input to itself until it forms
 a palindrome, 1000 iterations have been reached, or signed MAX_INT reached
 */

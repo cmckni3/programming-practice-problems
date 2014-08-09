@@ -1,7 +1,7 @@
 /*
 Chris McKnight
 UVA 11830 Contract Revision
-9/7/11
+2011-09-07
 Homework 2
 */
 

@@ -1,3 +1,9 @@
+/*
+Chris McKnight
+UVA 10550: Combination Lock
+2014-07-12
+*/
+
 #include <iostream>
 #include <iomanip>
 

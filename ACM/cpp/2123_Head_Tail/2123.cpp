@@ -1,7 +1,7 @@
 /*
 Chris McKnight
 ACM: Head or Tail
-11/12/2011
+2011-11-12
 */
 
 #include <iostream>

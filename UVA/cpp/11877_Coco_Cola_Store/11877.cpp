@@ -1,7 +1,7 @@
 /*
 Chris McKnight
 UVA 11877 The Coco-Cola Store
-9/28/11
+2011-09-28
 Homework 3
 */
 
