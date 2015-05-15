@@ -1,0 +1,9 @@
+{
+  "name": "letter-changes",
+  "version": "0.0.0",
+  "private": true,
+  "main": "letter-changes.js",
+  "scripts": {
+    "test": "jasmine-node letter-changes.spec.js"
+  }
+}

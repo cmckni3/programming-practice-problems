@@ -1,0 +1,9 @@
+{
+  "name": "letter-capitalize",
+  "version": "0.0.0",
+  "private": true,
+  "main": "letter-capitalize.js",
+  "scripts": {
+    "test": "jasmine-node letter-capitalize.spec.js"
+  }
+}

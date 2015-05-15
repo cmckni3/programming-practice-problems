@@ -1,11 +1,9 @@
 {
-  "name": "first_factorial",
+  "name": "first-factorial",
   "version": "0.0.0",
   "private": true,
-  "description": "",
-  "main": "first_factorial.js",
+  "main": "first-factorial.js",
   "scripts": {
-    "test": "jasmine-node first_factorial.spec.js"
-  },
-  "author": ""
+    "test": "jasmine-node first-factorial.spec.js"
+  }
 }

@@ -1,11 +1,9 @@
 {
-  "name": "first_reverse",
+  "name": "first-reverse",
   "version": "0.0.0",
   "private": true,
-  "description": "",
-  "main": "first_reverse.js",
+  "main": "first-reverse.js",
   "scripts": {
-    "test": "jasmine-node first_reverse.spec.js"
-  },
-  "author": ""
+    "test": "jasmine-node first-reverse.spec.js"
+  }
 }

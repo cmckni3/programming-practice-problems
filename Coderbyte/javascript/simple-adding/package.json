@@ -1,11 +1,9 @@
 {
-  "name": "simple_adding",
+  "name": "simple-adding",
   "version": "0.0.0",
   "private": true,
-  "description": "",
-  "main": "simple_adding.js",
+  "main": "simple-adding.js",
   "scripts": {
-    "test": "jasmine-node simple_adding.spec.js"
-  },
-  "author": ""
+    "test": "jasmine-node simple-adding.spec.js"
+  }
 }

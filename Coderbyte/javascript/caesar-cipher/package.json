@@ -1,0 +1,9 @@
+{
+  "name": "caesar-cipher",
+  "version": "0.0.0",
+  "private": true,
+  "main": "caesar-cipher.js",
+  "scripts": {
+    "test": "jasmine-node caesar-cipher.spec.js"
+  }
+}

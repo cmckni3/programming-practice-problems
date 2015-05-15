@@ -1,11 +1,9 @@
 {
-  "name": "binary_converter",
+  "name": "binary-converter",
   "version": "0.0.0",
   "private": true,
-  "description": "",
-  "main": "binary_converter.js",
+  "main": "binary-converter.js",
   "scripts": {
-    "test": "jasmine-node binary_converter.spec.js"
-  },
-  "author": ""
+    "test": "jasmine-node binary-converter.spec.js"
+  }
 }

@@ -1,4 +1,4 @@
-var BinaryConverter = require('./binary_converter');
+var BinaryConverter = require('./binary-converter');
 
 describe('toBinary', function(){
   var toBinary = BinaryConverter.toBinary;
