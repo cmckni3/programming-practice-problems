@@ -40,6 +40,10 @@
 - Check Nums
 - Binary Converter
 
+## [codeeval](https://www.codeeval.com)
+
+- Jolly Jumpers https://www.codeeval.com/open_challenges/43
+
 ## [Kattis](https://open.kattis.com/)
 
 - [Dice Game](https://open.kattis.com/problems/dicegame)
