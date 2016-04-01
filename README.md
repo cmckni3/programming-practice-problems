@@ -16,9 +16,22 @@
 ## [HackerCup](https://www.facebook.com/hackercup)
 
 ### HackerCup 2012
+
 1. Alphabet Soup from HackerCup 2012 (PHP)
 
-## [Project Euler](https://projecteuler.net/)
+## [HackerRank](https://www.hackerrank.com)
+
+### Algorithms
+
+- Solve Me First
+
+### Functional Programming
+
+- Hello World
+- Hello World N Times
+- Solve Me First
+
+## [Project Euler](https://projecteuler.net)
 
 1. 1 - 10 (C++)
 2. 13 (C++)
@@ -44,11 +57,11 @@
 
 - Jolly Jumpers https://www.codeeval.com/open_challenges/43
 
-## [Kattis](https://open.kattis.com/)
+## [Kattis](https://open.kattis.com)
 
 - [Dice Game](https://open.kattis.com/problems/dicegame)
 
-## [Rosalind](http://rosalind.info/)
+## [Rosalind](http://rosalind.info)
 
 ### Bioinformatics Amory
 
