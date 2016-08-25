@@ -58,7 +58,10 @@
         var formatted_result = Array.prototype.slice.call(arguments, 0).join(' ');
         log(formatted_result);
 
-        document.querySelectorAll('#result .card-blockquote')[0].innerHTML += formatted_result.replace("\n", "\n<br />");
+        var p = document.createElement('p');
+        p.innerHTML = '<code>' + (formatted_result + "\n").replace("\n", "<br />") + '</code>';
+
+        document.querySelectorAll('#result .card-blockquote')[0].appendChild(p);
       }
       function readInput() {
         return document.getElementById('sample-input').value;
