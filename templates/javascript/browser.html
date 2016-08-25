@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css" integrity="sha384-MIwDKRSSImVFAZCVLtU0LMDdON6KVCrZHyVQQj6e8wIEJkW4tvwqXrbMIya1vriY" crossorigin="anonymous">
+
+    <style>
+      body {
+        padding-top: 5rem;
+      }
+
+      .row-top-margin {
+        margin-top: 2rem;
+      }
+
+      #sample-input {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-fixed-top navbar-light bg-faded">
+      <a class="navbar-brand">JavaScript Code Template</a>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10">
+          <div class="form-group">
+            <label for="sample-input" class="control-label"></label>
+            <textarea rows="10" id="sample-input" name="sample-input"></textarea>
+          </div>
+          <button class="btn btn-primary">Run</button>
+        </div>
+      </div>
+
+      <div class="row row-top-margin">
+        <div class="col-md-10">
+          <div id="result" class="card">
+            <div class="card-header">Output</div>
+            <div class="card-block">
+              <blockquote class="card-blockquote"></blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      log = console.log
+
+      console.log = function() {
+        var formatted_result = Array.prototype.slice.call(arguments, 0).join(' ');
+        log(formatted_result);
+
+        document.querySelectorAll('#result .card-blockquote')[0].innerHTML += formatted_result.replace("\n", "\n<br />");
+      }
+      function readInput() {
+        return document.getElementById('sample-input').value;
+      }
+
+      function main() {
+      }
+
+      function attachEvents() {
+        var input = document.querySelectorAll('button')[0];
+
+        input.addEventListener('click', main, false);
+      }
+      document.addEventListener('DOMContentLoaded', attachEvents, false);
+    </script>
+  </body>
+</html>
