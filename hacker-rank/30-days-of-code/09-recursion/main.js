@@ -1,8 +1,13 @@
-function factorial(n) {
+function factorialRecursive(n, a, b) {
   if (n === 0) {
-    return 1;
+    return b;
+  } else {
+    return factorialRecursive(n-1, a+1, a*b);
   }
-  return n * factorial(n-1);
+}
+
+function factorial(n) {
+  return factorialRecursive(n, 1, 1);
 }
 
 function processData(input) {
